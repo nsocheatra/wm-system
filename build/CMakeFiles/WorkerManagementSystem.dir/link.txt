@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/WorkerManagementSystem.dir/main.cpp.o -o WorkerManagementSystem  -Wl,-rpath,/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-build/source _deps/xlnt-build/source/libxlntd.so.1.6.1 

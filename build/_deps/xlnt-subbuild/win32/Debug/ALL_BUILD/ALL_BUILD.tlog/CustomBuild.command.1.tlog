@@ -1,0 +1,10 @@
+^D:\REAN\IT\WORKER MANAGEMENT SYSTEM (FINAL)\BUILD\_DEPS\XLNT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Rean/IT/Worker Management System (final)/build/_deps/xlnt-subbuild" "-BD:/Rean/IT/Worker Management System (final)/build/_deps/xlnt-subbuild" --check-stamp-file "D:/Rean/IT/Worker Management System (final)/build/_deps/xlnt-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\runner.cpp">
+      <Filter>runner</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\cell\cell_test_suite.cpp">
+      <Filter>tests\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\cell\index_types_test_suite.cpp">
+      <Filter>tests\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\cell\rich_text_test_suite.cpp">
+      <Filter>tests\cell</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\drawing\drawing_test_suite.cpp">
+      <Filter>tests\drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\detail\numeric_util_test_suite.cpp">
+      <Filter>tests\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\alignment_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\color_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\conditional_format_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\fill_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\number_format_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\protection_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\styles\style_test_suite.cpp">
+      <Filter>tests\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\utils\datetime_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\utils\helper_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\utils\optional_tests.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\utils\path_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\utils\timedelta_test_suite.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\utils\variant_tests.cpp">
+      <Filter>tests\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\workbook\named_range_test_suite.cpp">
+      <Filter>tests\workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\workbook\serialization_test_suite.cpp">
+      <Filter>tests\workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\workbook\workbook_test_suite.cpp">
+      <Filter>tests\workbook</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\worksheet\page_setup_test_suite.cpp">
+      <Filter>tests\worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\worksheet\range_test_suite.cpp">
+      <Filter>tests\worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\worksheet\worksheet_test_suite.cpp">
+      <Filter>tests\worksheet</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\test_suite.cpp">
+      <Filter>helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\assertions.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\path_helper.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\temporary_directory.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\temporary_file.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\test_suite.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\timing.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\helpers\xml_helper.hpp">
+      <Filter>helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-src\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\parser.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\qname.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\serializer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\value-traits.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\char-props.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\genx.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmlparse.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmlrole.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-build\source\third-party\libstudxml\libstudxml.dir\$(Configuration)\xmltok.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{90DC7FCB-005F-3090-8D7F-E4D5D471DB6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{74118FA2-4884-3FDC-95EF-0C9D9FFCF547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="runner">
+      <UniqueIdentifier>{2C2918D2-893B-3AE1-AD40-9CA3667C4A56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{4874AD92-E901-3BE5-8C4C-CEA414E065A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\cell">
+      <UniqueIdentifier>{D3DFA768-6DA2-3355-AA53-674EBDA29CE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\detail">
+      <UniqueIdentifier>{65CB57A1-81FA-34FA-865F-AE2C33D3BD34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\drawing">
+      <UniqueIdentifier>{A226A972-EA34-333B-89E1-BF792D975668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\styles">
+      <UniqueIdentifier>{4583668E-E301-36AF-9EEC-40BF6A9EBEC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\utils">
+      <UniqueIdentifier>{2AC926B2-70E6-301D-8D89-F2E77043DB49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\workbook">
+      <UniqueIdentifier>{62DC722D-D4D9-388B-AF65-A62D964975D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\worksheet">
+      <UniqueIdentifier>{CFD3782E-115E-3719-AF68-C360FFCE4AB0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

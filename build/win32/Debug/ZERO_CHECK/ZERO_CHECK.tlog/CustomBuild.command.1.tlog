@@ -1,0 +1,10 @@
+^D:\REAN\IT\WORKER MANAGEMENT SYSTEM (FINAL)\BUILD\CMAKEFILES\D35966994E7C244F8D1F8B2AD56FE522\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Rean/IT/Worker Management System (final)/src" "-BD:/Rean/IT/Worker Management System (final)/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Rean/IT/Worker Management System (final)/build/WorkerManagementSystem.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

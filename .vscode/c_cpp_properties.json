@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++", // Or /usr/bin/clang++
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64" // or linux-clang-x64
+            // NOTICE: The "configurationProvider" line is GONE
+        }
+    ],
+    "version": 4
+}

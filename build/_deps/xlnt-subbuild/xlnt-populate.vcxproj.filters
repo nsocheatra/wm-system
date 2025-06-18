@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\95b602c479598760f634cbd65c98f2d7\xlnt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\0eae8226c2de29c74285528e29b9e31d\xlnt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\f6b806dd8171a333f6b0903e45af78d9\xlnt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Rean\IT\Worker Management System (final)\build\_deps\xlnt-subbuild\CMakeFiles\xlnt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A24E780A-10EE-3547-9605-B0219A4FE38E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

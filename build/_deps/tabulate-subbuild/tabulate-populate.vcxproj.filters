@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\677208220c9f40fa93f84f74d8cdb9af\tabulate-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\8bb8197d14831694ec1527ad2320e37f\tabulate-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\817765274e9ef4997895ad30b3122822\tabulate-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Rean\IT\Worker Management System (final)\build\_deps\tabulate-subbuild\CMakeFiles\tabulate-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{83656528-1F69-3D92-8412-53427B419C92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

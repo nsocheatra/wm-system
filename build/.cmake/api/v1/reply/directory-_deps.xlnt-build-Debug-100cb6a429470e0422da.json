@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/xlnt-build",
+		"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-src"
+	}
+}

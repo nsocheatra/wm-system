@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/home/nstra/Downloads/Worker-Management-System-final--master/src",
+    "files.associations": {
+        "iomanip": "cpp",
+        "iostream": "cpp"
+    }
+}

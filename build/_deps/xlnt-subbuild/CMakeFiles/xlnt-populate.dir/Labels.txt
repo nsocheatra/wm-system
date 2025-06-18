@@ -1,0 +1,14 @@
+# Target labels
+ xlnt-populate
+# Source files and their labels
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/CMakeFiles/xlnt-populate-complete.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-build.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-configure.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-download.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-install.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-mkdir.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-patch.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-test.rule
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-subbuild/xlnt-populate-prefix/src/xlnt-populate-stamp/xlnt-populate-update.rule

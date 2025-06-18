@@ -1,0 +1,3 @@
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/tabulate-subbuild/CMakeFiles/tabulate-populate.dir
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/tabulate-subbuild/CMakeFiles/edit_cache.dir
+/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/tabulate-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,241 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build-Debug-100cb6a429470e0422da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-src"
+				},
+				{
+					"build" : "_deps/xlnt-build/tests",
+					"jsonFile" : "directory-_deps.xlnt-build.tests-Debug-28e4e03ded3bde155ddd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-src/tests",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.xlnt-build.source-Debug-2aa7c99309cd5e5a6d56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-src/source",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "_deps/xlnt-build/source/third-party/libstudxml",
+					"jsonFile" : "directory-_deps.xlnt-build.source.third-party.libstudxml-Debug-508c494a3b36f9c2f60d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/xlnt-src/third-party/libstudxml.build",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/tabulate-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.tabulate-build-Debug-ad19db7891ba1b1c314c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/build/_deps/tabulate-src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WorkerManagementSystem",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "xlnt_all",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "xlnt.test",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "xlnt",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "libstudxml",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "tabulate",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "WorkerManagementSystem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WorkerManagementSystem-Debug-bd8a29896d9a9f769308.json",
+					"name" : "WorkerManagementSystem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "libstudxml::@adc904478183145f15fa",
+					"jsonFile" : "target-libstudxml-Debug-2199cd99dcdf9d3e668e.json",
+					"name" : "libstudxml",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-uninstall-Debug-e9af37c63bde1c94fe2c.json",
+					"name" : "uninstall",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "xlnt::@874320f2c4e182ab03bd",
+					"jsonFile" : "target-xlnt-Debug-05ef532ef692833b5ac2.json",
+					"name" : "xlnt",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xlnt.test::@73de1063b4707d31eeab",
+					"jsonFile" : "target-xlnt.test-Debug-6448b677164d7ae52453.json",
+					"name" : "xlnt.test",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nstra/Downloads/Worker-Management-System-final--master/build",
+		"source" : "/home/nstra/Downloads/Worker-Management-System-final--master/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
