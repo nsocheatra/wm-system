@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 # Set the project name to match your application.
-project(WorkerManagementSystem VERSION 0.1.0)
+project(WorkerManagementSystem)
 
 # Set the C++ standard.
 set(CMAKE_CXX_STANDARD 17)
@@ -17,8 +17,9 @@ include(FetchContent)
 FetchContent_Declare(
   xlnt
   # GIT_REPOSITORY https://github.com/tfussell/xlnt.git
-  GIT_REPOSITORY https://github.com/xlnt-community/xlnt.git
-  GIT_TAG  master
+  # GIT_TAG v1.5.0
+   GIT_REPOSITORY https://github.com/xlnt-community/xlnt.git
+   GIT_TAG master
 )
 
 # --- Dependency: tabulate ---

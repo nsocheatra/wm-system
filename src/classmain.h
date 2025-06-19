@@ -96,9 +96,7 @@ class User
 public:
     string username;
     string password;
-    string n{};
     UserRole role;
-
 
     User(const string &username, const string &password, UserRole role)
         : username(username), password(password), role(role) {}
@@ -274,7 +272,7 @@ public:
         string username, password;
         UserRole role;
 
-        clearScreen();
+        clearScreen();;
         printtHeader("Sign UP");
         cout << "Enter Username: ";
         cin >> username;
@@ -291,7 +289,6 @@ public:
             {
                 cout << red("Incorrect Admin Code. Signup failed.\n");
                 pressEnter();
-                loading();
                 return;
             }
         }
@@ -304,7 +301,6 @@ public:
             {
                 cout << red("Incorrect Manager Code. Signup failed.\n");
                 pressEnter();
-                loading();
                 return;
             }
         }
@@ -313,16 +309,11 @@ public:
         saveUsersToCSV(); // Auto-save after adding a new user
         cout << green("Signup successful!\n");
         pressEnter();
-        loading();
     }
-    
-
-    
 
     void signIn()
     {
-
-        clearScreen();
+        clearScreen();;
         printHeaderStyle3("---|Sign In System|---");
         string username, password;
         cout << "Enter Username: ";
@@ -1775,7 +1766,7 @@ public:
 
     void showMainMenu()
     {
-        clearScreen();
+        clearScreen();;
         if (!currentUser)
         {
             printHeaderStyle3("Welcome to Worker Management System");
@@ -1783,10 +1774,8 @@ public:
         }
         else
         {
-            loading();
-            clearScreen();
             printAppLogo();
-            menuMainAdmin();
+            menuMain();
         }
     }
 
@@ -1796,40 +1785,35 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             Process_Management();
             menuPM();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printtHeader("Add New Employee");
                 employeeManagement.addEmployee(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printtHeader("Update Employee Details");
                 employeeManagement.updateEmployeeDetails(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printtHeader("Delete Employee Record");
                 employeeManagement.deleteEmployeeRecord(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 4:
-                clearScreen();
-                ;
+                clearScreen();;
                 printtHeader("Set Hiring Status");
                 employeeManagement.setHiringStatus(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
@@ -1847,39 +1831,34 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             Resource_Management();
             menuRM();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Assign Employee to Department");
                 resourceManagement.assignEmployeeToDepartment(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("View Resource Allocation per Department");
                 resourceManagement.viewResourceAllocationPerDepartment(currentUser);
                 pressEnter();
                 break;
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Reassign Employees between Departments");
                 resourceManagement.reassignEmployeesBetweenDepartments(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 4:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("View Position/Role Distribution");
                 resourceManagement.viewPositionRoleDistribution(currentUser);
                 pressEnter();
@@ -1896,32 +1875,28 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             Time_Management();
             menuTM();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Record Employee Attendance");
                 timeManagement.recordEmployeeAttendance(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Track Work Hours or Shifts");
                 timeManagement.trackWorkHoursOrShifts(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Manage Leave Balances");
                 timeManagement.manageLeaveBalances(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
@@ -1939,24 +1914,21 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             Client_Relationship_Management();
             menuCRM();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Add Client Record");
                 clientRelationshipManagement.addClientRecord(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Assign Employees to Clients/Accounts");
                 clientRelationshipManagement.assignEmployeesToClientsAccounts(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
@@ -1964,8 +1936,7 @@ public:
                 break;
 
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("View All Clients");
                 clientRelationshipManagement.displayAllClients(currentUser);
                 pressEnter();
@@ -1985,54 +1956,47 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             printtHeader("Project Management");
             menuPMM();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Create Project");
                 projectManagement.createProject(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Assign Employees to Projects");
                 projectManagement.assignEmployeesToProjects(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Track Project Deadlines");
                 projectManagement.trackProjectDeadlines(currentUser);
                 pressEnter();
                 break;
             case 4:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("View Employees Assigned to Projects");
                 projectManagement.viewEmployeesAssignedToProjects(currentUser);
                 pressEnter();
                 break;
             case 5:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Delete Project");
                 projectManagement.deleteProject(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
                 pressEnter();
                 break;
             case 6:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Track Client-Specific Projects or Contacts");
                 clientRelationshipManagement.trackClientSpecificProjectsOrContacts(currentUser);
                 pressEnter();
@@ -2049,37 +2013,32 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             Business_Intelligence();
             menuBI();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Count Total Employees");
                 businessIntelligence.countTotalEmployees(currentUser);
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Department-wise Employee Statistics");
                 businessIntelligence.departmentWiseEmployeeStatistics(currentUser);
                 pressEnter();
                 break;
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Average, Max, and Min Salaries");
                 businessIntelligence.calculateSalaryMetrics(currentUser);
                 pressEnter();
                 break;
             case 4:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Sort Employees");
                 businessIntelligence.sortEmployees(currentUser);
                 saveSystemDataToFile(); // AUTO-SAVE
@@ -2097,30 +2056,26 @@ public:
         int choice;
         do
         {
-            clearScreen();
-            ;
+            clearScreen();;
             Base_System_Features();
             menuBF();
             cin >> choice;
             switch (choice)
             {
             case 1:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Display All Employees");
                 employeeManagement.displayAllEmployees(currentUser);
                 pressEnter();
                 break;
             case 2:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Display One Employee by ID");
                 employeeManagement.displayOneEmployeeByID(currentUser);
                 pressEnter();
                 break;
             case 3:
-                clearScreen();
-                ;
+                clearScreen();;
                 printHeaderStyle1("Search Employees");
                 employeeManagement.searchEmployees(currentUser);
                 pressEnter();
@@ -2145,8 +2100,7 @@ public:
         int choice;
         do
         {
-            clearScreen();
-                    loading();
+            clearScreen();;
             User_Management();
             menuUM(); // Assumed to exist in header.h to show options
             cin >> choice;
@@ -2155,8 +2109,7 @@ public:
             {
             case 1: // Add User
             {
-                clearScreen();
-                    loading();
+                clearScreen();;
                 printHeaderStyle1("Add New User");
                 string newUsername, newPassword;
                 cout << "Enter new username: ";
@@ -2171,8 +2124,7 @@ public:
             }
             case 2: // Delete User
             {
-                clearScreen();
-                    loading();
+                clearScreen();;
                 printHeaderStyle1("Delete User");
                 string usernameToDelete;
                 cout << "Enter username to delete: ";
@@ -2183,8 +2135,7 @@ public:
             }
             case 3: // Manage User Role
             {
-                clearScreen();
-                    loading();
+                clearScreen();;
                 printHeaderStyle1("Manage User Role");
                 string usernameToManage;
                 cout << "Enter username to manage: ";
@@ -2195,8 +2146,7 @@ public:
             }
             case 4: // View All Users
             {
-                clearScreen();
-                    loading();
+                clearScreen();;
                 printHeaderStyle1("View All Users");
                 userAuthSystem.displayAllUsers();
                 pressEnter();
@@ -2215,91 +2165,128 @@ public:
     void run()
     {
         int choice;
-        do
-        {
-            clearScreen();
-            ;
-            if (!currentUser)
-            {
+        do {
+            clearScreen();;
+            if (!currentUser) {
                 printHeaderStyle1("Worker Management System");
+                printAppLogo();
                 menuLogin();
                 cin >> choice;
 
-                switch (choice)
-                {
-                case 1:
-                    clearScreen();
+                switch (choice) {
+                    case 1: userAuthSystem.signUp(); break;
+                    case 2: userAuthSystem.signIn(); break;
+                    case 3: cout << green("Exiting... Goodbye!\n"); return;
+                    default: cout << red("Invalid choice.\n"); pressEnter(); break;
+                }
+            } else {
+                switch (currentUser->role) {
+                    case ADMIN:
                     loading();
-                    userAuthSystem.signUp();
-                    break;
-                case 2:
-                clearScreen();
-                loading();
-                    userAuthSystem.signIn();
-                    break;
-                case 3:
-                    cout << green("Exiting... Goodbye!\n");
-                    return;
-                default:
-                    cout << red("Invalid choice.\n");
-                    pressEnter();
-                    break;
+                    clearScreen();
+                    printAppLogo();
+                    
+                        menuMainAdmin();
+                        cin>>choice;
+                        switch(choice){
+                            case 1:
+                            clearScreen();
+                            loading();
+                            processManagementMenu(); break;
+                            case 2:
+                            clearScreen();
+                            loading();
+                            resourceManagementMenu(); break;
+                            case 3:
+                            clearScreen();
+                            loading();
+                            timeManagementMenu(); break;
+                            case 4:
+                            clearScreen();
+                            loading();
+                            clientRelationshipManagementMenu(); break;
+                            case 5:
+                            clearScreen();
+                            loading();
+                            businessIntelligenceMenu(); break;
+                            case 6:
+                            clearScreen();
+                            loading();
+                            baseSystemFeaturesMenu(); break;
+                            case 7:
+                            clearScreen();
+                            loading();
+                            userManagementMenu(); break;
+                        }                  
+                        if (choice == 8) userAuthSystem.logout();
+                        else if (choice == 9) { cout << green("Exiting... Goodbye!\n"); return; }
+                        
+                        break;
+                    case MANAGER:
+                    loading();
+                    clearScreen();
+                    printAppLogo();
+                        menuMainManage();
+                        cin >> choice;
+                          switch(choice){
+                            case 1:clearScreen();
+                            loading();
+                    
+                            processManagementMenu(); break;
+                            case 2:clearScreen();
+                            loading();resourceManagementMenu(); break;
+                            case 3:
+                            clearScreen();
+                            loading();
+                            timeManagementMenu(); break;
+                            case 4:
+                            clearScreen();
+                            loading();
+                            clientRelationshipManagementMenu(); break;
+                            case 5:
+                            clearScreen();
+                            loading();
+                            businessIntelligenceMenu(); break;
+                            case 6:
+                            clearScreen();
+                            loading();
+                            baseSystemFeaturesMenu(); break;
+                            
+                        } 
+                        if (choice == 7) userAuthSystem.logout();
+                        else if (choice == 8) { cout << green("Exiting... Goodbye!\n"); return; }
+                        
+                        break;
+                    case VIEWER:
+                    loading();
+                    clearScreen();
+                    printAppLogo();
+                        menuMainViewer();
+                        cin >> choice;
+                           switch(choice){
+                           
+                            case 1:
+                            clearScreen();
+                            loading();
+                            timeManagementMenu(); break;
+                            case 2:
+                            clearScreen();
+                            loading();
+                            clientRelationshipManagementMenu(); break;
+                            
+                            case 3:
+                            clearScreen();
+                            loading();
+                            baseSystemFeaturesMenu(); break;
+                            
+                        }
+                        if (choice == 4) userAuthSystem.logout();
+                        else if (choice == 5) { cout << green("Exiting... Goodbye!\n"); return; }
+                        
+                        break;
                 }
             }
-            else
-            {
-                switch (currentUser->role)
-                {
-                case ADMIN:
-                    loading();
-                    clearScreen();
-                    printAppLogo();
-                    menuMainAdmin();
-                    
-                    cin >> choice;
-                    if (choice == 8)
-                        userAuthSystem.logout();
-                    else if (choice == 9)
-                    {
-                        cout << green("Exiting... Goodbye!\n");
-                        return;
-                    }
-
-                    break;
-                case MANAGER:
-                    loading();
-                    clearScreen();
-                    printAppLogo();
-                    menuMainManage();
-                    
-                    cin >> choice;
-                    if (choice == 6)
-                        userAuthSystem.logout();
-                    else if (choice == 7)
-                    {
-                        cout << green("Exiting... Goodbye!\n");
-                        return;
-                    }
-
-                    break;
-                case VIEWER:
-                    loading();
-                    clearScreen();
-                    menuMainViewer();
-                    printAppLogo();
-                    cin >> choice;
-                    if (choice == 6)
-                        userAuthSystem.logout();
-                    else if (choice == 7)
-                    {
-                        cout << green("Exiting... Goodbye!\n");
-                        return;
-                    }
-
-                    break;
-                }
-            }
-        } while (true);
+        } while (true); 
     }
 };
 #endif

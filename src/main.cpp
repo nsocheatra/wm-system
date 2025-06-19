@@ -5,8 +5,10 @@
 #include "classmain.h"
 
 int main()
-{   clearScreen();
+{   
+    clearScreen();
     loading();
+    printAppLogo();
     WorkerManagementSystem wms;
     wms.run();
     return 0;

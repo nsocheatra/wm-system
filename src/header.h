@@ -7,13 +7,14 @@
 #include <vector>
 #include <string>
 #include <map>
+#include "clearScreen.h"
 #include <algorithm> 
-#include <numeric>
-#include "clearScreen.h"   
-#include "loading.h"
+#include <numeric>   
 #include <iomanip>   
 #include <fstream>   
 #include <sstream>
+#include "loading.h"
+#include "loadingbar.hpp"
 #include <tabulate/table.hpp>
 #include <xlnt/xlnt.hpp> 
 using namespace std;

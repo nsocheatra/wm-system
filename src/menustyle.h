@@ -106,7 +106,7 @@ void menuMainManage()
     t[0].format().font_color(Color::yellow);
     for (int i = 1; i <= menuMainManage.size(); i++)
     {
-        if (i == 9) // Exit option
+        if (i == 8) // Exit option
             t[i][1].format().font_color(Color::red);
         else
             t[i][1].format().font_color(Color::cyan);
@@ -150,11 +150,8 @@ void menuMainAdmin()
 void menuMainViewer()
 {
     vector<string> menuMainViewer = {
-        "Process Management",
-        "Resource Management",
         "Time Management",
         "Client Relationship Management",
-        "Business Intelligence",
         "Base System Features (Display/Search Employees)",
         "Logout",
         "Exit"};
@@ -168,7 +165,7 @@ void menuMainViewer()
     t[0].format().font_color(Color::yellow);
     for (int i = 1; i <= menuMainViewer.size(); i++)
     {
-        if (i == 9) // Exit option
+        if (i == 5) // Exit option
             t[i][1].format().font_color(Color::red);
         else
             t[i][1].format().font_color(Color::cyan);
@@ -180,7 +177,7 @@ void menuMainViewer()
 // Process Management  
 void menuPM()
 {
-    vector<string> menuMainAdmin = {
+    vector<string> menuMain = {
         "Add New Employee",
         "Update Employee Details",
         "Delete Employee Record",
@@ -188,13 +185,13 @@ void menuPM()
         "Back to Main Menu"};
     Table t;
     t.add_row({"No", "Menu"});
-    for (int i = 0; i < menuMainAdmin.size(); i++)
+    for (int i = 0; i < menuMain.size(); i++)
     {
-        t.add_row({to_string(i + 1), menuMainAdmin[i]});
+        t.add_row({to_string(i + 1), menuMain[i]});
     }
     t[0].format().font_style({FontStyle::bold}).font_align(FontAlign::center);
     t[0].format().font_color(Color::yellow);
-    for (int i = 1; i <= menuMainAdmin.size(); i++)
+    for (int i = 1; i <= menuMain.size(); i++)
     {
         if (i == 5) // Exit option
             t[i][1].format().font_color(Color::red);
@@ -243,8 +240,6 @@ void menuTM()
         "Record Employee Attendance",
         "Track Work Hours or Shifts",
         "Manage Leave Balances",
-        "Display Employee Time Report",
-        "Display All Employee Details"
         "Back to Main Menu"};
     Table t;
     t.add_row({"No", "Menu"});
@@ -390,7 +385,7 @@ void menuBF()
 //  User Management
 void menuUM()
 {
-    vector<string> menuMainAdmin = {
+    vector<string> menuMain = {
         "Add New User",
         "Delete User",
         "Manage User Role",
@@ -399,13 +394,13 @@ void menuUM()
     };
     Table t;
     t.add_row({"No", "Menu"});
-    for (int i = 0; i < menuMainAdmin.size(); i++)
+    for (int i = 0; i < menuMain.size(); i++)
     {
-        t.add_row({to_string(i + 1), menuMainAdmin[i]});
+        t.add_row({to_string(i + 1), menuMain[i]});
     }
     t[0].format().font_style({FontStyle::bold}).font_align(FontAlign::center);
     t[0].format().font_color(Color::yellow);
-    for (int i = 1; i <= menuMainAdmin.size(); i++)
+    for (int i = 1; i <= menuMain.size(); i++)
     {
         if (i == 5) // Exit option
             t[i][1].format().font_color(Color::red);
