@@ -2168,7 +2168,6 @@ public:
         do {
             clearScreen();;
             if (!currentUser) {
-                printHeaderStyle1("Worker Management System");
                 printAppLogo();
                 menuLogin();
                 cin >> choice;
